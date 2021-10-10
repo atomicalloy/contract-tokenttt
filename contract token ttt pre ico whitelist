@@ -1,0 +1,27 @@
+pragma solidity >=0.7.0 <0.9.0;
+
+contract Tokenttt {
+    address public owner
+        owner = msg.sender; 
+    }
+
+contract tokenttt is crowdsale, whitelist
+      string public standard = "ERC-20"
+      string public name = "TokenTTT"
+      string public symbol = "TTT"
+      uint8 public decimals = "0"
+      uint256 public totalsupply
+      
+      function transfer (address_to, uint256_value) 
+                       if (balanceOf [msg.sender] < _value) throw
+                       if (balanceOf[_to]) + _value < balanceof[_to] throw
+                       if [msg.sender] is WhiteList
+                       balanceOf [msg.sender]-=_value 
+                       balanceOf [_to]+=_value
+                       Transfer(msg.sender, _to, _value)
+                       
+contract tokenttt is whitelist, crowdsale
+      function AddToWhiteList (address [msg.sender]) internal OnlyOnwer
+            whitelist (adress [msg.sender] = true)
+      function WhiteList [msg.sender] 
+      mapping (address(msg.sender])) public
